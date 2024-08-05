@@ -9,6 +9,7 @@ from RPA.PDF import PDF
 import zipfile
 import os
 
+
 @task
 def order_robots_from_RobotSpareBin():
     browser.configure(slowmo=100)
